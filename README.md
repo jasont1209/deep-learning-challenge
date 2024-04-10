@@ -21,7 +21,7 @@ The target is "y", which is the "IS_SUCCESSFUL" Column.
 ## Compiling, Training, and Evaluating the Model
 
 ### How many neurons, layers, and activation functions did you select for your neural network model, and why?
-For the first model: 
+- For the first model: 
     - 2 Hidden layers and an outer layer;
         - layer 1 with 80 neuron and tanh activation
         - layer 2 with 30 neuron and sigmoid activation
@@ -30,7 +30,7 @@ For the first model:
     - Model training with 25 epochs
     - Achieved accuracy: 0.7283
 
-for Optimization attempt #1:
+- for Optimization attempt #1:
     - 2 Hidden layers and an outer layer;
         - layer 1 with 100 neuron and tanh activation
         - layer 2 with 50 neuron and sigmoid activation
@@ -40,13 +40,13 @@ for Optimization attempt #1:
     - Model training with 25 epochs
     - Achieved accuracy: 0.7283
 
-for Optimization attempt #2:
+- for Optimization attempt #2:
     - 2 Hidden layers and an outer layer;
-        - layer 1 with 150 neuron and relu activation
-        - layer 2 with 100 neuron and relu activation
-        - layer 3 with 50 neuron and relu activation
-        - output layer with sigmoid activation
-        - adam optimizer
+       - layer 1 with 150 neuron and relu activation
+       - layer 2 with 100 neuron and relu activation
+       - layer 3 with 50 neuron and relu activation
+       - output layer with sigmoid activation
+       - adam optimizer
     - Model training with 50 epochs
     - Achieved accuracy: 0.7296
 
